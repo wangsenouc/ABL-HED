@@ -37,9 +37,8 @@ pip3 install zoopt
 git submodule update --init --recursive
 
 export ABL_HOME=$PWD
-cp /usr/local/lib/swipl/lib/x86_64-linux/libswipl.so $ABL_HOME/src/logic/lib/
 export LD_LIBRARY_PATH=$ABL_HOME/src/logic/lib
-export SWI_HOME_DIR=/usr/local/lib/swipl/
+export SWI_HOME_DIR=/home/wseng/swipl/
 
 # for GPU user
 export LD_LIBRARY_PATH=$ABL_HOME/src/logic/lib:/usr/local/cuda:$LD_LIBRARY_PATH
