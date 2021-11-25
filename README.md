@@ -36,7 +36,7 @@ pip3 install zoopt
 # cd to ABL-HED
 git submodule update --init --recursive
 
-export ABL_HOME=$PWD
+export ABL_HOME=/home/wseng/ABL-HED
 export LD_LIBRARY_PATH=$ABL_HOME/src/logic/lib
 export SWI_HOME_DIR=/home/wseng/swipl/
 
